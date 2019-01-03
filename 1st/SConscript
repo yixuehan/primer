@@ -1,0 +1,5 @@
+Import('env')
+
+env.Program('read_number.cpp')
+env.Program('isbn_compare.cpp')
+env.Program('sales.cpp')
